@@ -6,14 +6,14 @@ def transcribe(dna):
 
 def main():
 	try:
-	    with open('../data/dataset.txt') as dataset:
-	        dna = dataset.read().strip()
+		with open('../data/dataset.txt') as dataset:
+			dna = dataset.read().strip()
 
-	    # Transcribe the DNA into RNA
-	    rna = transcribe(dna).strip()
+		# Transcribe the DNA into RNA
+		rna = transcribe(dna).strip()
 
-	    # Print the RNA
-	    print(rna)
+		# Print the RNA
+		print(rna)
 	except:
 		print('[ERR] No dataset found.')
 
