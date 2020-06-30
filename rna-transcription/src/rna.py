@@ -1,12 +1,4 @@
 #!/usr/bin/env python
-'''
-# 002 RNA
-Transcribing DNA into RNA
-
-A solution to the RNA transcription problem.
-
-URL: http://rosalind.info/problems/rna/
-'''
 
 def transcribe(dna):
 	# Simply replace the thymine base with uracil
